@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - CIS1102</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>MV Abangan</h1>
+            <p>Web Developer | Designer | Student</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>
+            Hello! I’m MV Abangan, a passionate web developer currently studying CIS1102. 
+            I enjoy building responsive websites and learning new technologies.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio showcasing my skills and projects.</p>
+        </div>
+        <div class="project-card">
+            <h3>Todo List App</h3>
+            <p>A simple app to manage daily tasks using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project-card">
+            <h3>Responsive Blog</h3>
+            <p>A blog layout optimized for mobile and desktop screens.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>Email: mvabangan@example.com</p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/mvabangan</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 MV Abangan | CIS1102 Portfolio</p>
+    </footer>
+</body>
+</html>
