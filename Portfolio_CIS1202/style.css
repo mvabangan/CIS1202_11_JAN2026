@@ -31,3 +31,16 @@ nav ul li a {
 nav ul li a:hover {
     color: var(--secondary-color);
 }
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f4f4f4;
+}
+
+body.dark-mode nav ul {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode nav ul li a {
+    color: #f4f4f4;
+}
