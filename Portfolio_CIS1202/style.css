@@ -76,3 +76,14 @@ header p {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
+.skills-panel {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}

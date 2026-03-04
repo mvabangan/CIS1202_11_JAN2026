@@ -52,14 +52,31 @@
 
         <section id="skills">
             <h2>Skills</h2>
-            <ul>
-                <li>HTML5, CSS3, JavaScript (ES6+)</li>
-                <li>React.js, Node.js, Express</li>
-                <li>Responsive Web Design & Accessibility</li>
-                <li>Version Control (Git/GitHub)</li>
-                <li>Database Management (MySQL, MongoDB)</li>
-            </ul>
+        
+            <div class="skills-tabs">
+                <button onclick="showSkills('tech')">Technical Skills</button>
+                <button onclick="showSkills('soft')">Non-Technical Skills</button>
+            </div>
+        
+            <div id="tech-skills" class="skills-panel">
+                <ul>
+                    <li>Python</li>
+                    <li>Next.js</li>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+        
+            <div id="soft-skills" class="skills-panel hidden">
+                <ul>
+                    <li>Project Management</li>
+                    <li>Team Collaboration</li>
+                    <li>Problem Solving</li>
+                    <li>Communication</li>
+                </ul>
+            </div>
         </section>
+        
 
         <section id="education">
             <h2>Education</h2>
